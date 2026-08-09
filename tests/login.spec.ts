@@ -11,6 +11,5 @@ import { expect, test } from "@playwright/test";
 
         await page.locator(".decorativeSubmit").click();        
         await page.locator('//a[contains(text(),"CRM")]').click();
-        console.log("BeforeEach Login happens for each module");       
 
     })
